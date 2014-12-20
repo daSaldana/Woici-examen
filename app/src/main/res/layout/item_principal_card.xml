@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <view
+        android:layout_width="fill_parent"
+        android:layout_height="250dp"
+        class="android.support.v7.widget.CardView"
+        android:id="@+id/view"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:visibility="visible" >
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="180dp"
+            android:id="@+id/imagen_lugar_poster"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentTop="false"
+            android:src="@drawable/l1"
+            android:scaleType="centerCrop" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre del Lugar"
+            android:id="@+id/textView_nombre_lugar"
+            android:textColor="#333333"
+            android:layout_marginTop="185dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="15sp" />
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/us"
+            android:layout_marginTop="200dp"
+            android:scaleType="centerInside"
+            android:id="@+id/imagen_persona"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recomendado por"
+            android:textColor="#333333"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="40dp"
+            android:textSize="10sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recomendado por"
+            android:textColor="#FF2222"
+            android:textSize="14sp"
+            android:id="@+id/nombre_persona"
+            android:layout_marginTop="210dp"
+            android:layout_marginLeft="40dp"
+            />
+    </view>
+
+
+
+</RelativeLayout>
